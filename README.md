@@ -1,10 +1,9 @@
 # HealthNexus - Smart Healthcare Connection Platform
 
-A modern, full-stack healthcare application with Urban Clap-inspired UI design that connects patients, nurses, and doctors through AI-powered triage and real-time healthcare services.
+A modern, full-stack healthcare application that connects patients, nurses, and doctors through AI-powered triage and real-time healthcare services.
 
 ## 🚀 Features
 
-- **Modern UI Design**: Urban Clap-inspired interface with attractive gradients and animations
 - **AI-Powered Triage**: Intelligent symptom assessment and priority recommendations
 - **Real-time Provider Availability**: Instant booking system with live provider status
 - **Secure Medical Records**: Healthcare-grade encryption and HIPAA compliance
