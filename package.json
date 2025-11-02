@@ -1,0 +1,38 @@
+{
+  "name": "healthnexus",
+  "version": "1.0.0",
+  "description": "Smart Healthcare Connection Platform - Full Stack Application",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-deps": "cd backend && npm install && cd ../frontend && npm install",
+    "test": "cd backend && npm test && cd ../frontend && npm test",
+    "setup": "npm install && npm run install-deps"
+  },
+  "keywords": [
+    "healthcare",
+    "fullstack",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "medical"
+  ],
+  "author": "HealthNexus Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/healthnexus.git"
+  }
+}
